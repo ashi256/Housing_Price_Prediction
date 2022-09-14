@@ -1,0 +1,47 @@
+columns:
+instant: int          
+season: int        
+yr: int             
+mnth: int           
+hr: int             
+holiday: int        
+weekday: int        
+workingday: int    
+weathersit: int     
+temp : float          
+atemp : float         
+hum  : float         
+windspeed: int    
+casual: int         
+registered : int    
+cnt: int 
+dteday: category
+
+numerical_columns:
+  - instant       
+  - dteday        
+  - season        
+  - yr            
+  - mnth          
+  - hr            
+  - holiday       
+  - weekday       
+  - workingday    
+  - weathersit    
+  - temp          
+  - atemp         
+  - hum           
+  - windspeed     
+  - casual        
+  - registered    
+  - cnt           
+
+
+
+categorical_columns:
+  - dteday
+
+
+
+
+target_column: cnt
